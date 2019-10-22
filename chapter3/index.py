@@ -1,4 +1,7 @@
 from os.path import exists
+from os import chdir
+
+chdir('../assets')
 
 if not exists('sketch.txt'):
   print("The file doesn't exists. Terminating process")
